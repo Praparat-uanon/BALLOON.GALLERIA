@@ -1,0 +1,585 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* colors
+ purple : rgb(77, 24, 199)
+blue : rgb(64, 211, 179)
+*/
+
+/* ---------------------------Main Page Body Section---------------------------- */
+
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.body-main {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.btn-main {
+  background-color: #fefefe;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  padding: 0.3rem;
+  border-color: #fefefe;
+  cursor: pointer;
+}
+.btn-main a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-main:hover {
+  background-color: rgb(177, 243, 229);
+  box-shadow: 0 0 0.5rem 0.5rem rgb(115, 68, 243);
+}
+
+@media (max-width: 500px) {
+  .btn-main {
+    left: 78%;
+  }
+}
+
+/* --------------------------------------Header Section-------------------------------- */
+
+.header-main {
+  height: 40vh;
+  position: relative;
+}
+
+.header-logo {
+  top: 7%;
+  left: 3%;
+  position: absolute;
+}
+
+.header-logo img {
+  border-radius: 50%;
+}
+
+.header-text {
+  font-size: 2rem;
+  position: absolute;
+  top: 8%;
+  left: 38%;
+  margin-top: 3%;
+  transform: translate(-50, -50);
+}
+.header-home {
+  font-family: "Monoton", cursive;
+  top: 25%;
+  left: 32%;
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 8%;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 1.2rem;
+}
+
+.header-home a:hover {
+  color: rgb(77, 24, 199);
+  border-bottom: rgb(74, 223, 190) solid;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .header-home {
+    font-size: 1rem;
+  }
+  .header-home a {
+    font-size: 0.3rem;
+    left: 30%;
+    padding: 0.7rem;
+  }
+}
+@media (max-width: 700px) {
+  .header-home a {
+    font-size: 0.8rem;
+    left: 38%;
+  }
+}
+/*-------------------------------------Main Section---------------------------------*/ /* The grid: Four equal columns that floats next to each other */
+.review-main {
+  height: 80vh;
+  position: relative;
+}
+.h3-review {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+}
+.row {
+  position: absolute;
+  left: 18%;
+}
+
+.column {
+  float: left;
+  padding: 0.5rem;
+}
+
+/* Style the images inside the grid */
+.column img {
+  height: 15rem;
+  width: auto;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 2%;
+  left: 33%;
+  color: #fff;
+  font-size: 3.5rem;
+  cursor: pointer;
+}
+#expandedImg {
+  width: 40%;
+  height: auto;
+}
+
+.more-img {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 70%;
+  right: 10%;
+}
+.more-img a:hover {
+  color: rgb(77, 24, 199);
+  border-bottom: rgb(74, 223, 190) solid;
+  padding-bottom: 0.5rem;
+}
+
+.main-hr {
+  height: 0.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 24, 199);
+  border: none;
+}
+
+footer {
+  margin: 1.5rem auto 1.5rem auto;
+  text-align: center;
+}
+.footer-icon {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.footer-icon a {
+  cursor: pointer;
+}
+.footer-icon a:hover {
+  color: rgb(74, 223, 190);
+}
+
+.footer-icon:hover {
+  color: rgb(74, 223, 190);
+}
+.copyright {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 760px) {
+  .column img {
+    height: 13rem;
+    width: auto;
+  }
+  .review-main {
+    height: 85vh;
+  }
+  .h3-review {
+    font-size: 2rem;
+  }
+  .more-img {
+    font-size: 1rem;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+  }
+  .container {
+    left: 35%;
+  }
+
+  #expandedImg {
+    width: 50%;
+    height: auto;
+  }
+  .closebtn {
+    left: 40%;
+  }
+}
+
+/*---------------------------------About Us Section-------------------------------*/
+.aboutus-main {
+  background: #fefefe;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.h3-aboutus {
+  color: rgb(64, 211, 179);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.aboutus-img img {
+  height: auto;
+  width: 40%;
+  position: relative;
+  left: 31%;
+}
+.aboutus-text {
+  color: rgb(64, 211, 179);
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2rem auto 2rem auto;
+}
+.aboutus-hr {
+  height: 0.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 24, 199);
+  border: none;
+  margin: 2rem auto 1rem auto;
+}
+
+.aboutus-footer {
+  position: relative;
+  top: 73%;
+}
+
+@media (max-width: 500px) {
+  .aboutus-footer {
+    top: 30%;
+  }
+  .aboutus-img img {
+    width: 50%;
+    left: 28%;
+  }
+  .aboutus-text {
+    font-size: 1rem;
+  }
+}
+
+/* ------------------------------Services Section---------------------------------- */
+.services-main {
+  background-color: #fefefe;
+  color: rgb(64, 211, 179);
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.h2-services {
+  color: rgb(77, 24, 199);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.services-img img {
+  width: 30rem;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 10%;
+}
+
+.services-hr {
+  height: 0.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 24, 199);
+  border: none;
+  margin: 3rem auto 3rem auto;
+}
+
+li i {
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .h2-services {
+    font-size: 1.5rem;
+  }
+  .services-img img {
+    width: 20rem;
+  }
+  .services-main {
+    font-size: 1.2rem;
+  }
+  .services-p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .services-main {
+    font-size: 1.2rem;
+  }
+  .services-p {
+    font-size: 1.1rem;
+  }
+}
+/* ------------------------------Pricing Section---------------------------------- */
+.pricing-section {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(128, 96, 202),
+    rgb(105, 201, 180)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 80vw;
+  margin: auto 10rem auto 10rem;
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.h2-pricing {
+  margin-bottom: 1rem;
+  padding-top: 3rem;
+}
+
+.pricing-p {
+  margin: 1.5rem auto 1rem auto;
+}
+
+.footer-icon-pricing {
+  display: inline;
+  font-size: 2.5rem;
+}
+
+.footer-icon-pricing a:hover {
+  color: rgb(77, 24, 199);
+}
+
+.pricing-img img {
+  height: 15rem;
+  width: auto;
+  margin-top: 1rem;
+}
+
+.pricing-footer {
+  margin-top: 5rem;
+}
+
+.copyright-pricing {
+  padding-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .pricing-section {
+    font-size: 1.2rem;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  }
+  .h2-pricing {
+    font-size: 1.5rem;
+  }
+  .pricing-p {
+    font-size: 1rem;
+  }
+
+  .footer-icon-pricing {
+    display: inline;
+    font-size: 1.8rem;
+  }
+  .pricing-footer {
+    margin-top: 1.8rem;
+  }
+}
+@media (max-width: 700px) {
+  .pricing-section {
+    width: 100vw;
+  }
+}
+/* ---------------------------------Review Section--------------------------------- */
+
+.main-section {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.review {
+  color: rgb(77, 24, 199);
+  text-align: center;
+  margin: 1rem auto 1.3rem auto;
+}
+
+.container1 {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 5rem;
+  color: rgb(245, 239, 239);
+  text-emphasis: bold;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 1rem;
+  position: relative;
+  transition: flex 0.7s;
+}
+
+.panel h3 {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 4;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+@media (max-width: 500px) {
+  .header-logo img {
+    height: 6rem;
+    width: auto;
+  }
+  .header-main {
+    height: 20vh;
+  }
+
+  .review {
+    font-size: 1.3rem;
+  }
+
+  .container {
+    width: 100vw;
+  }
+  .header-text {
+    font-size: 1.5rem;
+  }
+  .header-home {
+    left: 23%;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+  .main-section {
+    height: 80vh;
+  }
+
+  .panel {
+    height: 20vh;
+  }
+
+  .panel:nth-of-type(7),
+  .panel:nth-of-type(8),
+  .panel:nth-of-type(9),
+  .panel:nth-of-type(10) {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-main {
+    height: 30vh;
+  }
+
+  .header-home {
+    font-size: 1.3rem;
+    margin-top: 3em;
+  }
+
+  .panel {
+    height: 70vh;
+  }
+  .panel:nth-of-type(6),
+  .panel:nth-of-type(7),
+  .panel:nth-of-type(8),
+  .panel:nth-of-type(9),
+  .panel:nth-of-type(10) {
+    display: none;
+  }
+}
+
+.review-hr {
+  height: 0.1rem;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(77, 24, 199);
+  border: none;
+}

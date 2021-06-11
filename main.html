@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Yanone+Kaffeesatz:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/4d9c30c080.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title class="title">BALLOON.GALLERIA</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon-bl.ico" type="image/ico" sizes="16x16" />
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header-main">
+      <div class="header-logo">
+        <a href="index.html"
+          ><img src="./images/logo-circle1.png" alt="logo"
+        /></a>
+      </div>
+      <div class="header-text">
+        <h1>BALLOON.GALLERIA</h1>
+      </div>
+      <div class="header-home">
+        <a href="aboutus.html" class="home">About Us</a>
+        <a href="Services.html" class="services">Services</a>
+        <a href="Pricing.html" class="pricing">Pricing</a>
+        <a href="review.html" class="contact">Review</a>
+      </div>
+    </header>
+    <section>
+      <div class="main-img">
+        <img src="./images/bl2.png" alt="main-image" />
+      </div>
+    </section>
+    <h3 class="h3-review">รีวิวจากลูกค้า</h3>
+    <!-- The grid: four columns -->
+    <main class="review-main">
+      <div class="row">
+        <div class="column">
+          <img src="./images/img1.jpeg" alt="" onclick="myFunction(this);" />
+        </div>
+        <div class="column">
+          <img src="./images/img3.jpeg" alt="" onclick="myFunction(this);" />
+        </div>
+        <div class="column">
+          <img src="./images/img4.jpeg" alt="" onclick="myFunction(this);" />
+        </div>
+        <div class="column">
+          <img src="./images/img5.jpeg" alt="" onclick="myFunction(this);" />
+        </div>
+      </div>
+
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          >&times;</span
+        >
+
+        <!-- Expanded image -->
+        <img id="expandedImg" />
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+      <div class="more-img">
+        <a href="review.html"><<<ดูรีวิวเพิ่มเติม คลิ๊ก>>></a>
+      </div>
+    </main>
+    <hr class="main-hr" />
+    <footer>
+      <div class="footer-icon">
+        <a href="https://www.instagram.com/balloon.galleria/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="footer-icon">
+        <a href="https://line.me/R/ti/p/%40194gavbg"
+          ><i class="fab fa-line"></i
+        ></a>
+      </div>
+
+      <p class="copyright">
+        <i class="far fa-copyright"></i> 2020 Balloon.Galleria All Rights
+        Reserved
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

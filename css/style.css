@@ -274,6 +274,14 @@ footer {
   padding-bottom: 1rem;
 }
 
+@media (max-width: 375px) {
+  .h3-review {
+    font-size: 1.3rem;
+  }
+  .review-main {
+    height: 165vh;
+  }
+}
 @media (max-width: 760px) {
   .column img {
     height: 13rem;

@@ -151,7 +151,7 @@ a {
     padding: 0.3rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .header-home a {
     font-size: 0.8rem;
     left: 38%;
@@ -403,7 +403,7 @@ footer {
 li i {
   margin-bottom: 1rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   .h2-services {
     font-size: 1.5rem;
   }
@@ -417,7 +417,7 @@ li i {
     font-size: 1rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .services-main {
     font-size: 1.2rem;
   }
@@ -473,7 +473,7 @@ li i {
 .copyright-pricing {
   padding-bottom: 1rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   .pricing-section {
     font-size: 1.2rem;
     background-size: cover;
@@ -496,7 +496,7 @@ li i {
     margin-top: 1.8rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .pricing-section {
     width: 100vw;
   }
@@ -557,7 +557,7 @@ li i {
   transition: opacity 0.3s ease-in;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   .header-logo img {
     height: 6rem;
     width: auto;
@@ -598,7 +598,7 @@ li i {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .header-main {
     height: 30vh;
   }

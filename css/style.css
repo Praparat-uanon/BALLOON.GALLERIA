@@ -125,24 +125,30 @@ a {
     left: 1%;
   }
   .header-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .header-logo img {
-    width: 0.2rem;
+    width: 0.1rem;
   }
   .header-home {
-    font-size: 0.5rem;
-    left: 25%;
+    font-size: 0.3rem;
+    left: 20%;
   }
   .header-home a {
-    font-size: 0.2rem;
-    padding: 0.3rem;
+    font-size: 0.1rem;
+    padding: 0.2rem;
   }
 }
 @media (max-width: 768px) {
+   .header-main{
+    height: 35vh;
+  }
   .header-home a {
     font-size: 0.8rem;
     left: 38%;
+  }
+  .header-home {
+    height: 30vh;
   }
 }
 /*-------------------------------------Main Section---------------------------------*/ /* The grid: Four equal columns that floats next to each other */
@@ -261,17 +267,20 @@ footer {
   font-family: sans-serif;
   padding-bottom: 1rem;
 }
-
 @media (max-width: 375px) {
+  .review-main {
+    height: 95vh;
+  }
   .h3-review {
     font-size: 1.3rem;
   }
   .row {
     left: 20%;
   }
-  .column img {
-    height: rem;
-    width: auto;
+  #expandedImg {
+    width: 60%;
+    height: auto;
+    left: 20%;
   }
 }
 @media (max-width: 768px) {
@@ -280,7 +289,7 @@ footer {
     display: none;
   }
   .review-main {
-    height: 80vh;
+    height: 60vh;
   }
   .h3-review {
     font-size: 2rem;
@@ -298,6 +307,7 @@ footer {
   #expandedImg {
     width: 70%;
     height: auto;
+    left: 20%;
   }
   .closebtn {
     left: 40%;

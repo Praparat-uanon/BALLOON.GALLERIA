@@ -48,14 +48,14 @@ body {
   box-shadow: 0 0 0.5rem 0.5rem rgb(115, 68, 243);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 414px) {
   .btn-main {
-    left: 78%;
+    left: 76%;
   }
 }
 @media (max-width: 375px) {
   .body-main {
-    width: 80vw;
+    width: 78vw;
     height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ body {
     position: relative;
   }
   .btn-main {
-    left: 75%;
+    left: 77%;
   }
 }
 
@@ -118,14 +118,30 @@ a {
   padding-bottom: 0.5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 414px) {
+  .header-logo {
+    left: 2%;
+  }
   .header-home {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .header-home a {
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     left: 30%;
-    padding: 0.7rem;
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .header-logo {
+    left: 2%;
+  }
+  .header-home {
+    font-size: 0.7rem;
+  }
+  .header-home a {
+    font-size: 0.2rem;
+    left: 30%;
+    padding: 0.5rem;
   }
 }
 @media (max-width: 700px) {

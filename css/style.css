@@ -53,6 +53,15 @@ body {
     left: 78%;
   }
 }
+@media (max-width: 375px) {
+  .body-main {
+    width: 80vw;
+    height: auto;
+  }
+  .btn-main {
+    left: 73%;
+  }
+}
 
 /* --------------------------------------Header Section-------------------------------- */
 

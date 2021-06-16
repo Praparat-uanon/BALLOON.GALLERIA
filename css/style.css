@@ -56,10 +56,14 @@ body {
 @media (max-width: 375px) {
   .body-main {
     width: 80vw;
-    height: auto;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
   .btn-main {
-    left: 73%;
+    left: 75%;
   }
 }
 

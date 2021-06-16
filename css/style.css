@@ -360,7 +360,10 @@ footer {
   top: 73%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
+  .aboutus-main {
+    height: 80vh;
+  }
   .aboutus-footer {
     top: 30%;
   }
@@ -370,6 +373,11 @@ footer {
   }
   .aboutus-text {
     font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .aboutus-main {
+    height: 80vh;
   }
 }
 
@@ -609,6 +617,9 @@ li i {
 @media (max-width: 768px) {
   .header-main {
     height: 30vh;
+  }
+  .review {
+    margin: auto;
   }
 
   .header-home {

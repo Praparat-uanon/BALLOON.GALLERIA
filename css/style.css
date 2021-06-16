@@ -64,6 +64,8 @@ body {
   }
   .btn-main {
     left: 80%;
+    font-size: 1.3rem;
+    padding: 0.2rem;
   }
 }
 
@@ -118,36 +120,22 @@ a {
   padding-bottom: 0.5rem;
 }
 
-
-@media (max-width: 414px) {
-  .header-logo {
-    left: 1%;
-  }
-  .header-logo img {
-    width: 0.5rem;
-  }
-  .header-home {
-    font-size: 0.8rem;
-  }
-  .header-home a {
-    font-size: 0.2rem;
-    left: 20%;
-    padding: 0.4rem;
-  }
-}
 @media (max-width: 375px) {
   .header-logo {
     left: 1%;
   }
+  .header-text {
+    font-size: 1.5rem;
+  }
   .header-logo img {
-    width: 0.5rem;
+    width: 0.2rem;
   }
   .header-home {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    left: 25%;
   }
   .header-home a {
     font-size: 0.2rem;
-    left: 20%;
     padding: 0.3rem;
   }
 }
@@ -278,17 +266,21 @@ footer {
   .h3-review {
     font-size: 1.3rem;
   }
-  .review-main {
-    height: 165vh;
+  .row {
+    left: 20%;
   }
-}
-@media (max-width: 760px) {
   .column img {
-    height: 13rem;
+    height: rem;
     width: auto;
   }
+}
+@media (max-width: 768px) {
+  .column:nth-of-type(3),
+  .column:nth-of-type(4) {
+    display: none;
+  }
   .review-main {
-    height: 85vh;
+    height: 80vh;
   }
   .h3-review {
     font-size: 2rem;
@@ -304,7 +296,7 @@ footer {
   }
 
   #expandedImg {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   .closebtn {

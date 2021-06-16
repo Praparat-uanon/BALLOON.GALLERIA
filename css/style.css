@@ -128,10 +128,10 @@ a {
     font-size: 1.2rem;
   }
   .header-logo img {
-    width: 0.1rem;
+    height: 0.1rem;
   }
   .header-home {
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     left: 20%;
   }
   .header-home a {
@@ -269,7 +269,7 @@ footer {
 }
 @media (max-width: 375px) {
   .review-main {
-    height: 95vh;
+    height: 130vh;
   }
   .h3-review {
     font-size: 1.3rem;
@@ -277,10 +277,12 @@ footer {
   .row {
     left: 20%;
   }
+  .container {
+    left: 28%;
+  }
   #expandedImg {
     width: 60%;
     height: auto;
-    left: 20%;
   }
 }
 @media (max-width: 768px) {
@@ -572,11 +574,11 @@ li i {
     font-size: 1.3rem;
   }
 
-  .container {
-    width: 100vw;
+  .container1 {
+    width: 50vw;
   }
   .header-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .header-home {
     left: 23%;
@@ -589,7 +591,10 @@ li i {
   }
 
   .panel {
-    height: 20vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh;
   }
 
   .panel:nth-of-type(7),

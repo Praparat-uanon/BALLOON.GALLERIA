@@ -50,7 +50,7 @@ body {
 
 @media (max-width: 414px) {
   .btn-main {
-    left: 76%;
+    left: 80%;
   }
 }
 @media (max-width: 375px) {
@@ -63,7 +63,7 @@ body {
     position: relative;
   }
   .btn-main {
-    left: 77%;
+    left: 80%;
   }
 }
 
@@ -118,30 +118,37 @@ a {
   padding-bottom: 0.5rem;
 }
 
+
 @media (max-width: 414px) {
   .header-logo {
-    left: 2%;
+    left: 1%;
+  }
+  .header-logo img {
+    width: 0.5rem;
   }
   .header-home {
     font-size: 0.8rem;
   }
   .header-home a {
     font-size: 0.2rem;
-    left: 30%;
-    padding: 0.5rem;
+    left: 20%;
+    padding: 0.4rem;
   }
 }
 @media (max-width: 375px) {
   .header-logo {
-    left: 2%;
+    left: 1%;
+  }
+  .header-logo img {
+    width: 0.5rem;
   }
   .header-home {
     font-size: 0.7rem;
   }
   .header-home a {
     font-size: 0.2rem;
-    left: 25%;
-    padding: 0.5rem;
+    left: 20%;
+    padding: 0.3rem;
   }
 }
 @media (max-width: 700px) {

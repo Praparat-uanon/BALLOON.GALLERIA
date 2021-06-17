@@ -270,7 +270,7 @@ footer {
     left: 28%;
   }
   .column img {
-    width: 10%;
+    width: 40%;
     height: auto;
   }
   #expandedImg {
@@ -356,9 +356,7 @@ footer {
 }
 
 @media (max-width: 375px) {
-  .aboutus-main {
-    height: 80vh;
-  }
+ 
   .aboutus-footer {
     top: 30%;
   }

@@ -127,7 +127,7 @@ a {
   }
   .header-home{
     left:26%;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   .header-home a {
     font-size: 0.8rem;
@@ -367,6 +367,9 @@ footer {
   .aboutus-text {
     font-size: 1rem;
   }
+  .aboutus-footer {
+    top: 76%;
+  }
 }
 @media (max-width: 768px) {
   .header-main {
@@ -501,8 +504,8 @@ li i {
   }
 
   .panel {
-    width: 60vw;
-    height: auto;
+    width: 100vw;
+    height: 50vh;
   }
 
   .panel:nth-of-type(7),

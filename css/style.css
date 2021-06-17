@@ -120,13 +120,18 @@ a {
     left: 2%;
   }
   .header-logo img {
-    height: 3rem;
+    height: 5rem;
   }
   .header-text h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  .header-home{
+    left:26%;
+    margin-top: 2%;
   }
   .header-home a {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
   }
 }
 @media (max-width: 768px) {
@@ -259,14 +264,14 @@ footer {
     font-size: 1rem;
   }
   .row {
-    left: 20%;
+    left: 30%;
   }
   .container {
     left: 28%;
   }
   .column img {
-    height: 4rem;
-    width: auto;
+    width: 10%;
+    height: auto;
   }
   #expandedImg {
     width: 70%;
@@ -498,8 +503,8 @@ li i {
   }
 
   .panel {
-    width: 50vh;
-    height: 50vh;
+    width: 60vw;
+    height: auto;
   }
 
   .panel:nth-of-type(7),

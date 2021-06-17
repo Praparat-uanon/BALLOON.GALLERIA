@@ -513,15 +513,15 @@ li i {
 
 @media (max-width: 768px) {
   .header-main {
-    height: 25vh;
+    height: 35vh;
   }
   .review {
-    margin: 0.5rem auto 0.5rem auto;
+    margin: 0.8rem auto 0.2rem auto;
   }
 
   .header-home {
     font-size: 1.3rem;
-    margin-top: 3em;
+    margin-top: 4em;
   }
 
   .panel {

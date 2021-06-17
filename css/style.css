@@ -255,7 +255,7 @@ footer {
     display: none;
   }
   .review-main {
-    height: 50vh;
+    height: 70vh;
   }
   .h3-review {
     font-size: 1.7rem;
@@ -264,24 +264,21 @@ footer {
     font-size: 1rem;
     position: absolute;
     top: 90%;
-    right: 10%;
+    right: 4%;
   }
   .container {
     top: 8%;
-    left: 35%;
+    left: 25%;
   }
 
   #expandedImg {
     width: 60%;
     height: auto;
-    left: 15%;
   }
   .closebtn {
-    left: 47%;
+    left: 50%;
   }
 }
-
-
 /*---------------------------------About Us Section-------------------------------*/
 .aboutus-main {
   background: #fefefe;

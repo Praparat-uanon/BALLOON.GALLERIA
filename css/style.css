@@ -120,19 +120,17 @@ a {
   .header-logo {
     left: 2%;
   }
-  .header-logo img {
-    height: 5rem;
-  }
+
   .header-text {
     font-size: 1rem;
   }
-  .header-home a {
+  .header-home {
     font-size: 0.8rem;
   }
 }
 @media (max-width: 768px) {
   .header-main {
-    height: 30vh;
+    height: 25vh;
   }
 }
 /*-------------------------------------Main Section---------------------------------*/ /* The grid: Four equal columns that floats next to each other */
@@ -274,12 +272,12 @@ footer {
   }
 
   #expandedImg {
-    width: 70%;
+    width: 60%;
     height: auto;
-    left: 20%;
+    left: 15%;
   }
   .closebtn {
-    left: 50%;
+    left: 60%;
   }
 }
 
@@ -509,10 +507,10 @@ li i {
 
 @media (max-width: 768px) {
   .header-main {
-    height: 30vh;
+    height: 25vh;
   }
   .review {
-    margin: auto;
+    margin: 0.5rem auto 0.5rem auto;
   }
 
   .header-home {

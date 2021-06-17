@@ -51,7 +51,7 @@ body {
 
 @media (max-width: 375px) {
   .body-main {
-    width: 78vw;
+    width: 80vw;
     height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,12 +59,11 @@ body {
     position: relative;
   }
   .btn-main {
-    left: 80%;
+    left: 85%;
     font-size: 1.3rem;
     padding: 0.2rem;
   }
 }
-
 /* --------------------------------------Header Section-------------------------------- */
 
 .header-main {
@@ -120,12 +119,14 @@ a {
   .header-logo {
     left: 2%;
   }
-
-  .header-text {
+  .header-logo img {
+    height: 3rem;
+  }
+  .header-text h1 {
     font-size: 1rem;
   }
-  .header-home {
-    font-size: 0.8rem;
+  .header-home a {
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 768px) {
@@ -249,6 +250,33 @@ footer {
   font-family: sans-serif;
   padding-bottom: 1rem;
 }
+
+@media (max-width: 375px) {
+  .review-main {
+    height: 100vh;
+  }
+  .h3-review {
+    font-size: 1rem;
+  }
+  .row {
+    left: 20%;
+  }
+  .container {
+    left: 28%;
+  }
+  .column img {
+    height: 4rem;
+    width: auto;
+  }
+  #expandedImg {
+    width: 70%;
+    height: auto;
+  }
+  .closebtn {
+    left: 40%;
+  }
+}
+
 @media (max-width: 768px) {
   .column:nth-of-type(3),
   .column:nth-of-type(4) {
@@ -462,39 +490,16 @@ li i {
 }
 
 @media (max-width: 375px) {
-  .header-logo img {
-    height: 6rem;
-    width: auto;
-  }
-  .header-main {
-    height: 20vh;
-  }
-
   .review {
     font-size: 1.3rem;
   }
-
-  .container1 {
-    width: 50vw;
-  }
-  .header-text {
-    font-size: 1.3rem;
-  }
-  .header-home {
-    left: 23%;
-    font-size: 1rem;
-    margin-top: 3rem;
-  }
-
   .main-section {
     height: 80vh;
   }
 
   .panel {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 20vh;
+    width: 50vh;
+    height: 50vh;
   }
 
   .panel:nth-of-type(7),
@@ -505,6 +510,7 @@ li i {
   }
 }
 
+  
 @media (max-width: 768px) {
   .header-main {
     height: 35vh;

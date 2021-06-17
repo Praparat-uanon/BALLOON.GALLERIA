@@ -145,7 +145,7 @@ a {
 }
 .row {
   position: absolute;
-  left: 18%;
+  left: 23%;
 }
 
 .column {
@@ -342,10 +342,7 @@ footer {
     height: 25vh;
   }
   .aboutus-main {
-    height: 55vh;
-  }
-  .aboutus-footer {
-    top: 55%;
+    height: 80vh;
   }
 }
 
